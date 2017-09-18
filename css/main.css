@@ -698,12 +698,12 @@ header .header-social li a:hover {
 }
 
 .header-social img {
-	width:24px;
-	height: 24px;
+	width:18px;
+	height: 18px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	position: relative;
-	top: 5px;
+	top: 2px;
 }
 
 .header-social img:active {
@@ -2417,21 +2417,21 @@ footer .copyright li {
 }
 
 /* social links */
-footer .social-links, .language-links {
+footer .social-links, footer.language-links {
 	margin: 30px auto 42px auto;
 	padding: 0;
 	font-size: 38px;
 	text-align: center;
 }
 
-footer .social-links li, .language-links li {
+footer .social-links li, footer.language-links li {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 	margin-left: 32px;
 }
 
-footer .social-links li a, .language-links li a {
+footer .social-links li a, footer.language-links li a {
 	color: rgba(255, 255, 255, 0.1);
 }
 
@@ -2460,11 +2460,11 @@ footer .language-links li img:hover {
 	filter: brightness(150%) contrast(150%);
 }
 
-footer .social-links li a:hover, .language-links li a:hover{
+footer .social-links li a:hover, footer.language-links li a:hover{
 	color: white;
 }
 
-footer .social-links li:first-child, .language-links li:first-child {
+footer .social-links li:first-child, footer.language-links li:first-child {
 	margin-left: 0;
 }
 
